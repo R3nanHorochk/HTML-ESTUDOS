@@ -1,0 +1,35 @@
+body{
+margin: 50px;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: #0000FF;
+    margin-right: 1000px;
+    font-size: 20px;
+    font-weight: bold;
+    /*font-weight: bold;/* bold-negrito*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;/*caso não houver a fonte 
+    instalada coloque:"fonte não isntalada,fonte substituta"
+    */
+    text-align: left;/*alinhamento do texto centro,esquerda diteira e justifi*/
+    text-transform: uppercase;/*uppercase todos em maiusculo e lowercase
+    faz o contrario*/
+    /*
+    letter-spacing: 10px;/* espacamentoi entre letras*/
+   
+    word-spacing: 20px;/* espacamentoi entre palavras*/
+    line-height: 50px;/* espacamentoi entre linhas*/
+
+    text-shadow: 0px /*distancia para direita*/ 2px /*distancia para baixo*/ 
+    5px /*esfumacamento parecido com opacidade*/ black ;
+}
+a{
+    text-decoration: none;/* para tirar a linha abaixo do texto se usa 
+    esse codigo*/
+    
+}
+a:hover{
+    
+    text-decoration: underline;/*adiciona a linha*/
+}

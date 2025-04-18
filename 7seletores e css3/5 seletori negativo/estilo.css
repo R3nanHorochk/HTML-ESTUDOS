@@ -1,0 +1,3 @@
+.container :not(.div2){
+    background-color: greenyellow;
+}

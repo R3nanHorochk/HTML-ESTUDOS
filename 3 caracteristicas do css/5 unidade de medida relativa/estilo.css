@@ -1,0 +1,26 @@
+body{
+margin: 0px;
+font-size: 17px;
+
+}
+.container{
+    font-size: 2em;
+    
+}
+h1{
+    font-size: 5em;
+}
+.container-int{
+    width: 10em;
+    height: 10em;
+    background-color: aqua;
+}
+/* 
+A unidade em é baseada no font size do elemento pai sendo no exemplo
+o container ou seja 1em é igual a 17px, ele pega do item
+diretamente superior a ele, se ocorrer de ter 2em em uma div filha
+e 5em da div pai e 10px da dv-pai-pai a filha tera 100px
+
+
+A unidade Rem( R=root) ela usa o primeiro elemento por exemplo
+no caso de container-int seria 10rem sera os 17px do body

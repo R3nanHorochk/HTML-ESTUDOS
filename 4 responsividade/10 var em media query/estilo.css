@@ -1,0 +1,27 @@
+:root{
+    --bg-color: #000;
+    --bg-second: #444;
+    --verde:#00FFAF;
+    --font-size:25px;
+
+}
+
+body{
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+h1{
+    color: var(--verde,#00FF00);
+}
+.container{
+    background-color: var(--bg-second);
+    color: var(--verde);
+}
+ @media (max-width: 450px) {
+    :root{
+        --font-size:15px
+    }
+ }
+/* um macete utilizavel e que quando quiser mudar um valor de
+uma variavel se muda igual acima colocando root e mudando
+o valor da variavel que se deseja mudar

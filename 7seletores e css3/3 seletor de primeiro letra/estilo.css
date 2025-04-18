@@ -1,0 +1,10 @@
+[required]{
+background-color: red;
+}
+input[type="text"]{
+    background-color: aqua;
+}
+p::first-line{
+    color: red;
+    font-size: 30px;
+}

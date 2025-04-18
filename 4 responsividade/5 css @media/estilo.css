@@ -1,0 +1,35 @@
+body{
+ background-color: #00ffd5;
+}
+
+
+@media(min-width: 1000px)  {
+    body{
+        background-color: red;
+    }
+    h1{
+        font-size: 55px;
+    }
+}
+
+@media(min-width: 700px) and (max-width: 999px)  {
+    body{
+        background-color: purple;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 600px)  {
+    body{
+        background-color: greenyellow;
+    }
+    h1{
+        font-size: 15px;
+    }
+}
+/* quando se utiliza media coloca o tamanho e altera as propriedades
+reescrevendo o css
+max=para tras
+min= para frente

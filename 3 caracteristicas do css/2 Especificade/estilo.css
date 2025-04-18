@@ -1,0 +1,18 @@
+body{
+margin: 0px;
+font-size: 17px;
+
+}
+.container{
+    width: calc(100% -20px);
+    height: 200px;
+    background-color: bisque;
+    color: red;
+}
+body .container{
+    color: blue;
+}
+div{
+    color: greenyellow;
+}
+/*qunato mais especifico voce for ela tera  propriedade

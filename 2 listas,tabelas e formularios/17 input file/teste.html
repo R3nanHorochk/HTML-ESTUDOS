@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>TEXTO:</h1>
+    <h2>Area de cadastro</h2>
+    
+    <form action="salvo.html" method="get" enctype="multipart/form-data"> 
+        
+        
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label>
+        Nome completo:<br>
+        <input type="text" name="Nome" required minlength="3" maxlength="10">
+    </label><br>
+    <label>
+        sobrenome:<br>
+        <input type="text" name="sobreNome" required>
+    </label><br>
+    <label>
+        foto:<br>
+        <input type="file" name="imagem" accept="image/*">
+    </label><br>
+    <!-- o input file envia arquivos
+   podemos validar eles usando accept
+    ex:accept:image/* aceita apenas imagens
+    application/pdf aceita apenas pdf
+    -----------------------
+    para eles funcionarem deve se usar no form:
+    enctype:
+    texto e arquivos se usa 
+        -"multipart/form-data" 
+    -->
+</fieldset><br>
+<fieldset>
+    <legend>Dados pessoais</legend>
+    <label>
+        Nome empresa:<br>
+        <input type="text" name="Nomeempresa" required> 
+    </label><br>
+    <label>
+        Nome cargo:<br>
+        <input type="text" name="cargo" required>
+    </label>
+</fieldset>
+<button>Enviar</button>
+</form>
+</body>
+</html>

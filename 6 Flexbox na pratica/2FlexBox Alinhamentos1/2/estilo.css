@@ -1,0 +1,21 @@
+
+.container{
+    display: flex;
+    height: 500px;
+    background-color: darkslategrey;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+.container div {
+    background-color: darkcyan;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+

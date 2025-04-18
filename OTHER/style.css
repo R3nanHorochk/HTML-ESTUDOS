@@ -1,0 +1,55 @@
+.nav{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.nav:hover{
+    background-color: red;
+}
+
+.butto{
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+.butto:hover{
+    background-color: red;
+    color: white;
+    border: 0px;
+}
+
+
+#navi{
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+#containter{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+table{
+    width: 1480px;
+    height: 200px;
+    background-color: white;
+}
+main{
+    margin:10px;
+}
+
+footer{
+    margin:10px;
+    text-align: center;
+}
+#footer{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+

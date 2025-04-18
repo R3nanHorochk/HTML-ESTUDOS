@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-gap: 20px ; 
+    background-color: rgb(124, 222, 255);
+    padding: 20px;
+    height: 600px;
+    grid-template-areas: 
+    "item1 item1 item1 item1"
+    "item2 item3  item3 item3"
+    "item4 item4 item4 item5"
+    ;
+}
+
+.item{
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+.item5{
+    grid-area: item5;
+}
+/*1-row start  2-columns star 3-rowend 4-colums end*/

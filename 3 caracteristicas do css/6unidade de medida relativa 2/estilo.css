@@ -1,0 +1,25 @@
+body{
+margin: 0px;
+font-size: 17px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.container{
+    width: 1000px;
+    background-color: aqua;
+    
+    
+}
+.container-int{
+   background-color: yellow;
+   width: 50ch;
+}
+/* 
+A unidade de % é sempre relativa ao elemento pai ou superior dela
+
+A unidade Ex ela é baseada em qual fonte esta usando por exemplo
+ele pega a altura da letra x e usa ela como unidade de medida
+por exemplo x tem 5px de altura e se usa 5ex ele tera 25px
+
+A unidade Ch não e muito utilizada (Character unit) então ch seria
+o tamanho de um caracter monotipo.

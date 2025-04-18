@@ -1,0 +1,16 @@
+body{
+margin: 0px;
+font-size: 17px;
+}
+.container{
+    width:  70vmin;
+    height: auto;
+    background-color: aqua;
+}
+
+/* 
+Viewport= espaço visivel para o usuario
+vh = view height
+vw= view width
+v-min= verificar entre largura e altura quem é menor e usa ela
+v-max= verificar entre largura e altura quem é maior e usa ela

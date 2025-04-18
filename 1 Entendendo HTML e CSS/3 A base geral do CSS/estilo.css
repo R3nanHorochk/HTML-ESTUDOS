@@ -1,0 +1,23 @@
+#titulo{
+    color: green;
+}/* #id  .classe */
+.class{
+    font-size: 30px;
+    color: blue;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo, .class{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}/* para usar duas calsses ou ids*/
+ul li{
+    font-weight: bold;
+}/* quando se usa uma tag na frente da outra sem virgula
+ela busca dentro da pimeira tag esses elementos*/
+.eu{
+  color: rgb(60, 250, 120);  
+  background-color:#000000;
+}
+

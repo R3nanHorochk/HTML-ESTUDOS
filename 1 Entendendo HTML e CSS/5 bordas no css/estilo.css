@@ -1,0 +1,30 @@
+p{
+    border: 5px solid rgb(000,200,150);
+} /* tipo de borda:
+solid- solido
+double- duas linhas
+groove- solid mais escuro
+dashed-linha
+dotted-bolinha */
+
+h1{
+    border-top: 5px solid rgb(000,00,0);
+    border-bottom:5px solid rgb(000,00,0) ;
+}
+/*bordas podem serem utilizadas em varias direções
+top
+left
+right
+bottom
+*/
+p{
+    border-radius: 5px;
+}/*border radius raio da borda
+*/
+div{
+    width: 200px;
+    background-color: aquamarine;
+    height: 200px;
+    border-radius: 70px;
+    border:5px solid black;
+}

@@ -1,0 +1,18 @@
+body{
+ background-color: #00ffd5;
+}
+@media only print{
+    h1{
+        font-size: 100px;
+        font-weight: bold;
+        display: none;
+    }
+    body{
+        background-color: blueviolet;
+    }
+    table,td{
+        border: 0px;
+    }
+}
+
+/* pode se utilizar o media para impressão 

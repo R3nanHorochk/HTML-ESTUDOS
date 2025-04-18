@@ -1,0 +1,61 @@
+.nav-item{
+    background-color: blanchedalmond;
+    
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.nav-item:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.butto{
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+.butto:hover{
+    background-color: red;
+    color: white;
+    border: 0px;
+}
+.nav-link{
+    color: azure;
+}
+.nav-link:hover{
+    color: black;
+}
+
+nav{
+    background-color: lightgoldenrodyellow;
+}
+
+#containter{
+    
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+table{
+    width: 1480px;
+    height: 200px;
+    background-color: white;
+}
+main{
+    margin:10px;
+}
+
+footer{
+    margin:10px;
+    text-align: center;
+}
+#footer{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.container-fluid{
+    background-color: beige;
+    margin: 0px;
+}

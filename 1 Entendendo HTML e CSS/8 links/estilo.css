@@ -1,0 +1,24 @@
+.link{
+    
+    margin-right: 500px;
+}
+
+.link:hover{
+    color: black;
+    background-color: antiquewhite;
+    margin-right: 500px;
+    
+}
+.link:visited{
+    color: purple;
+    background-color: black;
+    margin-right: 500px;
+    
+}
+#dex{
+    color:red;
+    background-color: rgb(105, 2, 2);
+    font-size: 30px;
+}
+/*hover é para quando passa o mouse
+visited-para link ja visitados*/

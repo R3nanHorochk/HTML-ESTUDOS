@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-rows: 100px 50px 70px 100px;
+    grid-template-columns: 200px 500px 200px; 
+    grid-gap: 20px 100px;
+}
+
+.item{
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}

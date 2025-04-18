@@ -1,0 +1,13 @@
+body{
+margin: 0px;
+font-size: 17px;
+
+}
+.container{
+    
+    color: red;
+}
+
+/*O css é carregado de cima para baixo e existe uma hierarquia:
+as primeiras lidas são as do arquivo externo no caso estilo.css
+depois a tag style e dps a inline

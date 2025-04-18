@@ -1,0 +1,23 @@
+
+body{
+    margin: 0px;
+}
+.exemplo{
+    background-color: greenyellow;
+    width: 50%;
+    height: 500px;
+}
+#teste{
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+}
+.um{
+    width: inherit;
+    height: 500px;
+    background-color: yellow;
+}
+/*
+width-largura
+height-altura
+*/

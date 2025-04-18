@@ -1,0 +1,6 @@
+img{
+    width: max(50%, 300px);/* ele pega o maior e utiliza
+    pode ser variavel por exemplo se tiver (50%,500px)
+    dependendo da tela um pode ser maior*/
+    
+}

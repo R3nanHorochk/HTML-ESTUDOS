@@ -1,0 +1,18 @@
+body{
+margin: 0px;
+font-size: 17px;
+} 
+.container{
+    font-size: 15px;
+    color: blue;
+}
+h1{
+    font-size: 30px;
+    color: red;
+}
+.container h1{
+    font-size: inherit;
+    color: inherit;
+}
+/*inherit: herde o font size
+é muito utilizda quando se quer que herde caracteristicas

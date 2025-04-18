@@ -1,0 +1,11 @@
+img{
+width: 400px;
+height: 400px;
+object-fit: scale-down;
+}
+/* objetc fit=
+fill - padraão preenche independente da proporção
+contain faz com que a imagem caiba no quadrado o resto fica brancos
+cover corta a imagem mas faz caber
+scale-down semelhante ao contain ele vai diminuir proporcionalmente
+a qualidade da imagem

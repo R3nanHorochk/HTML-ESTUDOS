@@ -1,0 +1,22 @@
+:root{
+    --bg-color: #000;
+    --bg-second: #444;
+    --verde:#00FFAF;
+}
+ 
+body{
+    background-color: var(--bg-color);
+}
+h1{
+    color: var(--verde,#00FF00);
+}
+.container{
+    background-color: var(--bg-second);
+    color: var(--verde);
+}
+
+/* variaveis são criadas a partir de :root {
+ -- * nome da variavel*: *valor da variavel*
+}
+quando a variavel não existir coloca
+var( --valor, valor substituto)

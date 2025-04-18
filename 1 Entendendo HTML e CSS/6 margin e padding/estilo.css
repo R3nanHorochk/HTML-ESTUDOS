@@ -1,0 +1,12 @@
+.exemplo{
+    border: 5px solid rgb(0, 128, 111);
+    padding: 20px;
+    
+}
+body{
+    margin: 10px;
+}
+/*
+Padding-Espaçamento interno
+margin-Espacamento externo
+*/

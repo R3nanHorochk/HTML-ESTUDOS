@@ -1,0 +1,18 @@
+body{
+margin: 0px;
+font-size: 17px;
+
+}
+.container{
+    
+    color: red;
+}
+
+/*medidas absolutas são não relativa ou seja não sofrem interferencia 
+de outras estruturas do site por exemplo:30px vai ser 30 px 
+independente
+Unidades:
+pt-points(usado para fonte e usado em impressão)
+px-pixel
+cm-centimetro
+mm-milimetro

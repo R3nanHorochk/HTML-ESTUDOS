@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 100px;
+}
+
+.item{
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}

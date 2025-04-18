@@ -1,0 +1,6 @@
+div{background-color: blue;}
+
+div:first-child{background-color: red;
+border-radius: 20px;}
+div:last-child{background-color: green;
+border-radius: 100px;}

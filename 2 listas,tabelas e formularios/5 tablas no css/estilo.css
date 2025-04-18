@@ -1,0 +1,43 @@
+body{
+margin: 50px;
+font-size: 17px;
+
+}
+
+table /* tabela inteira*/{
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+}
+td /* coluna do cabecalho*/{
+    border: 1px solid black;
+    margin: 0px;
+}
+th /* unidade do cabecalho*/{
+    border: 1px solid red;
+}
+table thead /* cabecalho*/ {
+    background-color: crimson;
+}
+table tbody/* corpo*/{
+    background-color: brown;
+}
+td,th{
+    text-align: center;
+}
+tbody tr:nth-child(even)/* faz com que as linhas impares ou pares mudem os atributos*/
+{
+    background-color: chartreuse;
+}
+/*tr:hover{
+    background-color:tomato;
+}*/
+tr:hover {
+    background-color:blue;
+}
+
+thead th{
+    border: 3px solid tomato;
+}
+
+

@@ -1,0 +1,9 @@
+body{
+margin: 0px;
+background-color: rgb(red, green, blue);
+}
+/*modos de valores para cor
+nome: so usar o nome
+hexadecimal: 0 a 9 e A ate F para completar
+podemos utilizar rgb(vermelho, verde, azul)
+o atributo currentColor pega a cor herança

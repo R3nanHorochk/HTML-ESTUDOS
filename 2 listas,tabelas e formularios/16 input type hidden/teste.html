@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>TEXTO:</h1>
+    <h2>Area de cadastro</h2>
+    
+    <form action="salvo.html" method="GET"> 
+        <input type="text" name="Country" value="br" required hidden >
+        <!-- em alguns casos se enconde o input por exemplo pais,cidade
+        editar informações mostrando quem é a informação do usuario-->
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label>
+        Nome completo:<br>
+        <input type="text" name="Nome" required minlength="3" maxlength="10">
+    </label><br>
+    <label>
+        sobrenome:<br>
+        <input type="text" name="sobreNome" required>
+    </label><br>
+    
+</fieldset><br>
+<fieldset>
+    <legend>Dados pessoais</legend>
+    <label>
+        Nome empresa:<br>
+        <input type="text" name="Nomeempresa" required> 
+    </label><br>
+    <label>
+        Nome cargo:<br>
+        <input type="text" name="cargo" required>
+    </label>
+</fieldset>
+<button>Enviar</button>
+</form>
+<!--velidacao pode ser feita pelo javascript ou nativa
+validacoes nativas:
+TEXT:
+-required-mostra que é obrigatorio
+-min-lenght:minimo de caracteres
+-max-lenght:maximo de caracteres
+NUMBER
+-step: aumenta o numero nos botes por meio do numer exemplo 5 em 5
+-min:minimo
+-max:maximo
+DATA:
+MIn: minimo ex: 1980-06-20
+PADROES CRIADOS:
+pattern:criar os proprios padroes
+OBS:eles so funcionam es voce digitar algo 
+se n digitar ele n conta
+-->
+</body>
+</html>
